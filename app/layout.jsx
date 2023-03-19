@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       */}
       <head />
       <body className={`${montserrat.className} mx-10`}>
-        <h1 className="text-2xl font-bold text-center mb-10 mt-10 text-red-500">The Movie App</h1>
+        <h1 className="text-2xl font-bold text-center mb-10 mt-10">The Movie App</h1>
         {children}
       </body>
     </html>
